@@ -1,0 +1,76 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+// font-family: 'Press Start 2P', cursive;
+
+.site-login{
+    display: flex;
+}
+
+.login-email{
+    width: 100%;
+    margin: 1%;
+}
+
+.login-email-input{
+    font-size: 1.5rem;
+}
+
+.login-password{
+    width: 100%;
+    margin: 1%;
+}
+.login-password-input{
+    font-size: 1.5rem;
+}
+
+.login-button{
+    width: 100%;
+    margin: 1%;
+}
+.login-submit-button{
+    font-size: 1.25rem;
+    font-family: 'Press Start 2P', cursive;
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+.login-submit-button:hover{
+    cursor: pointer;
+    color: red;
+}
+
+.logged-user{
+    display: flex;
+}
+
+.logged-welcome{
+    width: 100%;
+    margin: 1%;
+}
+
+.login-button{
+    width: 100%;
+    margin: 1%;
+}
+
+.login-submit-button{
+    font-size: 1.5rem;
+    font-family: 'Press Start 2P', cursive;
+}
+
+#email-error{
+    font-size: .65rem;
+    font-family: 'Press Start 2P', cursive;
+    color: red;
+    padding: .25rem;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+#password-error{
+    font-size: .65rem;
+    font-family: 'Press Start 2P', cursive;
+    color: red;
+    padding: .25rem;
+    background-color: rgba(0, 0, 0, 0.75);
+}

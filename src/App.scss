@@ -1,0 +1,42 @@
+@use "flex.css";
+
+
+.App{
+  margin: -.5rem;
+}
+
+.header{
+  display: flex;
+  margin: 0;
+  background-color: rgb(0, 0, 0);
+  width: 100vw;
+  height: 5vh;
+  // background-image: url("https://p1.pxfuel.com/preview/519/955/777/wall-stone-texture-brick.jpg");
+  background-size: cover;
+  border-bottom: 5px solid  rgb(194, 176, 77);
+}
+
+.app-header{
+  width: 50%;
+}
+.app-login{
+  width: 50%;
+}
+
+.main{
+  margin: 0;
+  width: 100vw;
+  height: 87vh;
+}
+
+
+
+.footer{
+  margin: 0;
+  background-color: rgb(0, 0, 0);
+  width: 100vw;
+  height: 5vh;
+  // background-image: url("https://p1.pxfuel.com/preview/519/955/777/wall-stone-texture-brick.jpg");
+  background-size: cover;
+  border-top: 5px solid  rgb(194, 176, 77);
+}

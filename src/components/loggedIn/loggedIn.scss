@@ -1,0 +1,39 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+// font-family: 'Press Start 2P', cursive;
+
+.site-loggedIn{
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+    padding: .5%;
+    font-size: 2rem;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+
+.logout-btn{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 1%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logout-submit-btn{
+    // width: 35%;
+    font-size: 1.25rem;
+    background-color: transparent;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+}
+.logout-submit-btn:hover{
+    cursor: pointer;
+    color: red;
+}
+
+.user-greeting{
+    display:flex;
+}

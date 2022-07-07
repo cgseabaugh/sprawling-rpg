@@ -1,0 +1,15 @@
+
+
+Challenges:
+    flint-and-steel
+    lockpick
+    torch + flint-and-steel
+    incense
+    incense + flint-and-steel
+
+Curiosities:
+    lockpick
+    patk
+    pdef
+    matk
+    mdef

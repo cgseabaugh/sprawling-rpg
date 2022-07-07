@@ -1,0 +1,82 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+// font-family: 'Press Start 2P', cursive;
+
+.signup{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.65);
+    height: 90%;
+    width: 50%;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+.signup-title{
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.signup-div{
+    display: flex;
+    justify-content: center;
+}
+
+.signup-input{
+    display: flex;
+    width: 75%;
+    font-size: 1.5rem;
+    margin: 1rem;
+    color: white;
+    background-color: black;
+    justify-content: center;
+}
+
+.signup-submit-button{
+    width: 50%;
+    font-size: 1.5rem;
+    background-color: transparent;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    padding: .5rem;
+    border-radius: 5px;
+    margin-top: 10%;
+}
+
+.signup-submit-button:hover{
+    color: red;
+    cursor: pointer;
+    border: 1px solid  rgb(255, 228, 75);
+}
+
+#signup-username-error{
+    font-size: .65rem;
+    font-family: 'Press Start 2P', cursive;
+    color: red;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: center;
+}
+
+#signup-email-error{
+    font-size: .65rem;
+    font-family: 'Press Start 2P', cursive;
+    color: red;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: center;
+}
+
+#signup-password-error{
+    font-size: .65rem;
+    font-family: 'Press Start 2P', cursive;
+    color: red;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: center;
+}

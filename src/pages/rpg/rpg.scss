@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+.rpg-page{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-image: url("https://pbs.twimg.com/media/CqH2nkrWIAA-Yiw?format=jpg&name=large");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.rpg-right{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+    
+}
+
+.rpg-left{
+    display: flex;
+    width: 50%;
+    height: 100%;
+}
+
+.back-home{
+    height: 20%;
+}
+
+button{
+    background-color: none;
+}
+
+.back-home-button{
+    width: 20vw;
+    height: 5vh;
+    margin-top: 7vh;
+    margin-left: 6vw;
+}
+
+.back-home-button-link{
+    text-decoration: none;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 2rem;
+    color: white;
+}
+
+.back-home-button-link:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.rpg-play{
+    display: flex;
+    justify-content: center;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 2rem;
+    color: white;
+}
+
+.rpg-heroes{
+    height: 40%;
+    width: 50%;
+    background-image: url("https://i.pinimg.com/originals/3f/17/34/3f173486753fa3dca648e290d8015cc9.gif");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    margin-bottom: 8%;
+    margin-left: 5%;
+    bottom: 0;
+}

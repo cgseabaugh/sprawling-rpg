@@ -1,0 +1,82 @@
+
+.scoreboard-main{
+    display: flex;
+    height: 75%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.scoreboard-title{
+    display: flex;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 3rem;
+    color: white;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.scoreboard-list{
+    display: flex;
+}
+
+.scoreboard-item{
+    display: flex;
+    margin-top: 1rem;
+    background-color: rgba(0, 0, 0, 0.75);
+    border: 3px solid  rgb(194, 176, 77);
+    border-radius: 5px;
+    height: 100%;
+    padding: .5rem;
+}
+
+.scoreboard-rank{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 2rem;
+    color: rgb(255, 0, 0);
+}
+
+.scoreboard-user{
+    display: flex;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1.75rem;
+    color: white;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.scoreboard-highscore{
+    display: flex;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1.75rem;
+    color: rgb(255, 237, 132);
+    margin-right: 0;
+}
+
+.scoreboard-labels{
+    display: flex;
+    margin-top: 1rem;
+}
+
+.scoreboard-label-rank{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1rem;
+    color: white;
+}
+
+.scoreboard-label-name{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1rem;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.scoreboard-label-score{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1rem;
+    color: white;
+    margin-right: 0;
+}

@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+.accordion__section{
+    display: flex;
+    width: 100%;
+}
+
+.accordion {
+    width: 95%;
+    margin: 5%;
+    text-align: center;
+    border: 5px solid  rgb(194, 176, 77);
+    border-radius: 10px;
+    background-image: url("https://cdn.pixabay.com/photo/2016/07/31/16/24/banner-1559399_960_720.jpg");
+    background-size: cover;
+    color: #444;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    outline: none;
+    transition: background-color 0.6s ease;
+}
+
+.accordion:hover, .active{
+    background-color: #ccc;
+}
+
+.accordion__title {
+    font-family: 'Press Start 2P', cursive;
+    font-weight: 600;
+    font-size: 1.75rem;
+    text-align: center;
+    width: 100%;
+    color: white;
+}
+
+.accordion__title:hover{
+    color: red;
+}
+
+.accordion__icon {
+    margin-left: auto;
+    transition: transform 0.6s ease;
+}
+
+.rotate {
+    transform: rotate(90deg);
+}
+
+.accordion__content {
+    overflow: hidden;
+    transition: max-height 0.6s ease;
+    max-height: 0;
+    margin-left: 8%;
+    line-height: 100%;
+    font-size: 1rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    border: 2px solid  rgb(194, 176, 77);
+    padding: 5px;
+}
+
+.accordion__text{
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: 400;
+    font-size: 14px;
+}

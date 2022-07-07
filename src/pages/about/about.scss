@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+.about-page{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-image: url("https://external-preview.redd.it/bRaraT3JcuGbgDJYUo6rXtjn3J6b5s-dIkVpkgDImaY.jpg?auto=webp&s=39fc20d01dcf896a73369974dd3e1015a2d79b74");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-menu{
+    width: 60%;
+    height: 100%;
+    
+}
+
+.about-images{
+    width: 40%;
+    height: 100%;
+    
+}
+
+.back-home{
+    height: 20%;
+}
+
+button{
+    background-color: none;
+}
+
+.back-home-button{
+    width: 20vw;
+    height: 5vh;
+    margin-top: 7vh;
+    margin-left: 6vw;
+}
+
+.back-home-button-link{
+    text-decoration: none;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 2rem;
+    color: white;
+}
+
+.back-home-button-link:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.accordions{
+    display: flex;
+}
+
+.cave-knight{
+    /* width: 576px; */
+    width: 25%;
+    /* height: 576px; */
+    height: 50%;
+    background-image: url("https://i.pinimg.com/originals/8d/6f/f3/8d6ff31f94e244db66e9e96bb87dfa70.gif");
+    background-size: cover;
+    position: absolute;
+    margin-bottom: 8%;
+    bottom: 0;
+}

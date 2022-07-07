@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.battle-menu-main {
+    box-sizing: border-box;
+    border-radius: 10px;
+    height: 75%;
+  
+    gap: 10px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+
+    font-family: 'Press Start 2P', cursive;
+  }
+  .battle-menu-main > :first-child {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+  .option {
+    display: flex;
+    border-radius: 5px;
+    border: 1px solid black;
+  
+    background-color: rgb(37, 34, 27);
+  
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1rem;
+    font-family: 'Press Start 2P', cursive;
+  
+    cursor: pointer;
+  }
+  
+  .option:hover {
+    border: 4px solid #b3a064;
+    background-color: rgb(77, 70, 56);
+  }
+
+  .hidden{
+    display: none;
+  }

@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+.profile-page{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-image: url("https://pbs.twimg.com/media/CqH2nkrWIAA-Yiw?format=jpg&name=large");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.profile-right{
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    height: 100%;
+}
+
+.profile-middle{
+    display: flex;
+    width: 30%;
+    height: 100%;
+    justify-content: center;
+    
+}
+
+.profile-left{
+    display: flex;
+    width: 45%;
+    height: 100%;
+}
+
+.back-home{
+    height: 20%;
+}
+
+button{
+    background-color: none;
+}
+
+.back-home-button{
+    width: 20vw;
+    height: 5vh;
+    margin-top: 7vh;
+    margin-left: 6vw;
+}
+
+.back-home-button-link{
+    text-decoration: none;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 2rem;
+    color: white;
+}
+
+.back-home-button-link:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.profile-play{
+    display: flex;
+    justify-content: center;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 2rem;
+    color: white;
+}
+
+.profile-heroes{
+    height: 40%;
+    width: 50%;
+    background-image: url("https://i.pinimg.com/originals/3f/17/34/3f173486753fa3dca648e290d8015cc9.gif");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    margin-bottom: 8%;
+    margin-left: 5%;
+    bottom: 0;
+}
+
+.user-profile{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.75);
+    width:75%;
+    height: 50%;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+.user-profile-item{
+    display: flex;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 2rem;
+    color: white;
+    margin: 1rem;
+    width: 100%;
+    height: 100%;
+}
+
+.user-profile-item-label{
+    font-size: 1rem;
+    color: rgb(255, 0, 0);
+    margin-bottom: .5rem;
+}
+
+.user-profile-item-value{
+    font-size: 1rem;
+    color: white;
+}
+
+.user-profile-change-password-button{
+    background-color: transparent;
+    border: 1px solid white;
+    padding: .5rem;
+    margin-top: 1rem;
+    margin-left: 20%;
+    margin-right: auto;
+    border-radius: 5px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: .75rem;
+    color: white;
+}
+
+.user-profile-change-password-button:hover{
+    cursor: pointer;
+    color: red;
+}
+
+.delete-profile-btn{
+    background-color: transparent;
+    border: 1px solid white;
+    padding: .5rem;
+    margin-top: 1rem;
+    margin-left: 20%;
+    margin-right: auto;
+    border-radius: 5px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: .75rem;
+    color: white;
+}
+
+.delete-profile-btn.hover{
+    cursor: pointer;
+    color: red;
+}

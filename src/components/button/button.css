@@ -1,0 +1,66 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+/* background-image: url("https://cdn.pixabay.com/photo/2016/07/31/16/24/banner-1559399_960_720.jpg"); */
+
+button{
+    
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    margin: 4rem;
+    width: auto;
+    height: auto;
+    text-align: center;
+    border-radius: 5px;
+    background-image: url("https://p1.pxfuel.com/preview/519/955/777/wall-stone-texture-brick.jpg");
+    background-size: cover;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.74);
+}
+
+.button button:hover{
+    cursor: pointer;
+    color: red;
+}
+
+.primary-button{
+    font-size: 1.5rem;
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+    background-color: transparent;
+    border: none;
+    margin: 5%;
+}
+
+.home-play-button{
+    font-size: 1.5rem;
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+    background-color: transparent;
+    border: none;
+    background-image: url("../assets/PLAY1b.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 10rem;
+    width: 20rem;
+    border-radius: 5px;
+}
+
+.home-play-button:hover{
+    cursor: pointer;
+    background-image: url("../assets/PLAY2b.gif");
+}
+
+.profile-button{
+    
+    font-size: 1.5rem;
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+    background-color: transparent;
+    border: none;
+    margin: 2.5%;
+}
+
+

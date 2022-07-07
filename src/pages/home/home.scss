@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+.home-page{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-image: url("https://opengameart.org/sites/default/files/battleback1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home-logo{
+    display: flex;
+    width: 75%;
+    height: 75%;
+    background-image: url("../../components/assets/sprawlingrpg-logo-white.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+
+.home-right{
+    display: flex;
+    width: 50%;
+    height: 100%;
+}
+
+.home-right-play{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.home-right-profile{
+    margin: 5rem;
+}
+
+.home-left{
+    display: flex;
+    width: 50%;
+    height: 100%;
+}
+
+.home-message{
+    /* background-color: rgba(0, 0, 0, 0.35); */
+    border-radius: 10px;
+    width: 50vw;
+    height: 20%;
+    color: rgb(255, 0, 0);
+}
+
+.home-signup{
+    display: flex;
+    height: 100%;
+    margin-top: 8rem;
+}
+
+.message-text{
+    font-size: 2.5rem;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.white-text{
+    color: white;
+}
+
+.home-images{
+    display: flex;
+}
+
+.home-bonfire{
+    background-image: url("https://c.tenor.com/eT65efTNamoAAAAi/bonfire-darksouls.gif");
+    height: 219px;
+    width: 231px;
+    margin-top: 15vh;
+    margin-left: 20vw;
+}
+
+.home-bonfire:hover{
+    cursor: pointer;
+}
+
+.bonfire-link{
+    height: 100%;
+    width: 100%;
+}
+
+.home-herald{
+    background-image: url("https://64.media.tumblr.com/3df213299f49d6a73743095f18209e38/tumblr_inline_p8447v6QGG1r2gwmq_400.gifv");
+    height: 456px;
+    width: 504px;
+    background-size: cover;
+    margin-top: -8vh;
+    margin-left: -5vw;
+}
+
+.home-menu{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-left: -10%;
+}
+
+
+// .menu-item{
+//     display: flex;
+//     margin: 4rem;
+//     width: 100%;
+//     font-size: 1rem;
+//     background-color: rgba(0, 0, 0, 0.7);
+//     text-align: center;
+//     border: 5px solid  rgb(194, 176, 77);
+//     border-radius: 15px;
+//     background-image: url("https://cdn.pixabay.com/photo/2016/07/31/16/24/banner-1559399_960_720.jpg");
+//     background-size: cover;
+// }
+
+.menu-item:hover{
+    border: 5px solid  rgb(255, 228, 75);
+    transform: scale(1.025, 1.05);
+}
+
+
+
+// .link-button{
+//     display: flex;
+//     margin-top: 1rem;
+//     justify-content: center;
+//     text-decoration: none;
+//     height: 4rem;
+//     font-size: 2.5rem;
+//     text-align: center;
+//     font-family: 'Press Start 2P', cursive;
+//     color: white;
+// }
+
+// .link-button:hover{
+//     cursor: pointer;
+//     color: red;
+// }
