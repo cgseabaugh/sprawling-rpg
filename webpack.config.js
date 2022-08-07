@@ -4,24 +4,18 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 
-module.exports = (env, argv) => {
-  console.log('env:');
-  console.dir(env);
-
-  console.log('argv:');
-  console.dir(argv);
-
+module.exports = ({ mode } = { mode: "development" }) => {
   const plugins = [
     new HtmlWebpackPlugin({template: "./public/index.html"}),
     new MiniCssExtractPlugin(),
   ]
 
-  if (env.mode === 'development') {
+  if (mode === 'development') {
     plugins.push(new ReactRefreshPlugin())
   }
 
   return {
-    mode: env.mode,
+    mode: mode,
     entry: "./src/index.js",
     devServer: {
       client: {
